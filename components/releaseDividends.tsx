@@ -48,7 +48,7 @@ export default function ReleaseDividends() {
   }, [fetchState]);
 
   return (
-    <Alert variant="secondary">
+    <Alert variant="secondary" className='shadow-lg rounded'>
       <Alert.Heading>Release Dividends</Alert.Heading>
       <p>Release dividends to existing energy share holders.</p>
       <Form>

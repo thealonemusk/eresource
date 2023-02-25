@@ -52,7 +52,7 @@ export default function TransferShares() {
   }, [fetchState]);
 
   return (
-    <Alert variant="secondary">
+    <Alert variant="secondary" className='shadow-lg rounded bg-secondary text-dark'>
       <Alert.Heading>Transfer energy Shares</Alert.Heading>
       <p>
         Transfer your shares from your existing properties to another owner.
