@@ -48,9 +48,10 @@ export default function ReleaseDividends() {
   }, [fetchState]);
 
   return (
+
     <Alert variant="secondary" className='shadow-lg rounded'>
-      <Alert.Heading>Release Dividends</Alert.Heading>
-      <p>Release dividends to existing energy share holders.</p>
+      <Alert.Heading>Energy Credit</Alert.Heading>
+      <p>Release Credits to existing Credit holders.</p>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Dividend amount:</Form.Label>

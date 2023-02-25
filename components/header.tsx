@@ -20,7 +20,7 @@ export default function Header() {
               <Nav.Link>Properties</Nav.Link>
             </Link>
             <Link href={Routes.energy_CREATE} passHref>
-              <Nav.Link>Create energy</Nav.Link>
+              <Nav.Link>Create Energy Source</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

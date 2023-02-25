@@ -52,8 +52,10 @@ export default function TransferShares() {
   }, [fetchState]);
 
   return (
+
     <Alert variant="secondary" className='shadow-lg rounded bg-secondary text-dark'>
-      <Alert.Heading>Transfer energy Shares</Alert.Heading>
+      <Alert.Heading>Transfer Energy in MegaWatts</Alert.Heading>
+
       <p>
         Transfer your shares from your existing properties to another owner.
       </p>
@@ -91,7 +93,7 @@ export default function TransferShares() {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Transfer amount / Quantity of shares:</Form.Label>
+          <Form.Label>Transfer amount /  Energy in MegaWatts:</Form.Label>
           <Form.Control
             type="number"
             value={transferSupply}

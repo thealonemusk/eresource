@@ -49,11 +49,11 @@ export default function Createenergy() {
 
   return (
     <Alert variant="secondary">
-      <Alert.Heading>Create energy</Alert.Heading>
+      <Alert.Heading>Create Energy Source</Alert.Heading>
       <p>Create a new energy to be listed in the marketplace.</p>
       <Form>
         <Form.Group className="mb-3" controlId="addressId">
-          <Form.Label>energy Price:</Form.Label>
+          <Form.Label>Energy Price:</Form.Label>
           <Form.Control
             type="number"
             value={energyPrice}
@@ -77,7 +77,7 @@ export default function Createenergy() {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>energy Shares Supply:</Form.Label>
+          <Form.Label>Energy in MegaWatts:</Form.Label>
           <Form.Control
             type="number"
             value={tokenSupply}

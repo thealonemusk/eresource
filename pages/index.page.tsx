@@ -170,7 +170,6 @@ export default function Home() {
 
     </main>
       <EnergyShares />
-     
       <Createenergy />
       <TransferShares />
       <ReleaseDividends />

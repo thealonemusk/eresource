@@ -64,6 +64,7 @@ export default function energyShares() {
   return (
     <Alert variant="primary" className="shadow-lg rounded bg-dark text-white">
       <Alert.Heading>Energy Shares</Alert.Heading>
+
       <p className="text-break">
         Balance: <b>{hasBalance ? balance : '----'}</b>
       </p>

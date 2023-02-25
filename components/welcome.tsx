@@ -12,7 +12,7 @@ export default function Welcome() {
     <div>
       <Alert variant="success">
         <Alert.Heading>Welcome!</Alert.Heading>
-        <p>Please can now browse and buy Energy in our Marketplace.</p>
+        <p>Please can now browse and buy Energy Sources in our Marketplace.</p>
         <p>
           Your wallet address is: <b>{account?.addressId}</b>
         </p>
