@@ -565,7 +565,7 @@ export const CONTRACT_ABI = [
     type: 'function',
   },
 ];
-export const CONTRACT_ADDRESS = '0x2212e8aad0b67460d140821ad0c55d81eab16777';
+export const CONTRACT_ADDRESS = '0x91894156731284BE9d8E887b1161ac20502C72E3';
 export const CONTRACT_CREATE_PROP_GAS = 15000000;
 
 export const DEMO_LISTING_ID = 23451242;
