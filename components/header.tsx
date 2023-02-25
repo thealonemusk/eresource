@@ -5,7 +5,7 @@ import { Routes } from '../lib/types';
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className='sticky-top'>
       <Container>
         <Link href={Routes.HOME} passHref>
           <Navbar.Brand>Decentralized energy Trading App</Navbar.Brand>
