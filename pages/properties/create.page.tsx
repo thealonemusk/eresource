@@ -7,7 +7,7 @@ import { CONTRACT_CREATE_PROP_GAS, DEMO_LISTING_ID } from '../../lib/constants';
 import { FetchState } from '../../lib/types';
 import { useCurrentAddressId } from '../../lib/custom-hooks';
 
-export default function CreateProperty() {
+export default function Createenergy() {
   const autoCompleteDoneRef = useRef(false);
   const router = useRouter();
   const { autoComplete } = router.query;
@@ -18,7 +18,7 @@ export default function CreateProperty() {
     tokensCount: null,
   });
 
-  const tokenizeProperty = async () => {
+  const tokenizeenergy = async () => {
     try {
       setFetchState(FetchState.LOADING);
 
@@ -27,7 +27,7 @@ export default function CreateProperty() {
         gas: CONTRACT_CREATE_PROP_GAS,
       });
       const res = await contract.methods
-        .createProperty(10000000, DEMO_LISTING_ID, '550321', 10)
+        .createenergy(10000000, DEMO_LISTING_ID, '550321', 10)
         .send();
 
       setMessage({
@@ -72,7 +72,7 @@ export default function CreateProperty() {
 
     if (!autoCompleteDone && autoComplete === '1' && currentAddressId) {
       autoCompleteDoneRef.current = true;
-      tokenizeProperty();
+      tokenizeenergy();
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -81,7 +81,7 @@ export default function CreateProperty() {
   return (
     <MetaMaskConnected>
       <div>
-        <Button variant={buttonVariant} onClick={tokenizeProperty}>
+        <Button variant={buttonVariant} onClick={tokenizeenergy}>
           {buttonText}{' '}
           {fetchState === FetchState.LOADING && (
             <Spinner animation="border" variant="dark" size="sm" />

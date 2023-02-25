@@ -1,7 +1,7 @@
 export const MAIN_ORIGIN = 'https://dominicarrojado.com';
-export const MAIN_PATH = '/decentralized-property-trading-app/';
+export const MAIN_PATH = '/decentralized-energy-trading-app/';
 export const MAIN_URL = `${MAIN_ORIGIN}${MAIN_PATH}`;
-export const MAIN_TITLE = 'Decentralized Property Trading App';
+export const MAIN_TITLE = 'Decentralized energy Trading App';
 
 export const CONTRACT_ABI = [
   {
@@ -80,7 +80,7 @@ export const CONTRACT_ABI = [
         type: 'string',
       },
     ],
-    name: 'NewProperty',
+    name: 'Newenergy',
     type: 'event',
   },
   {
@@ -198,7 +198,7 @@ export const CONTRACT_ABI = [
     inputs: [
       {
         internalType: 'uint256',
-        name: 'propertyPrice',
+        name: 'energyPrice',
         type: 'uint256',
       },
       {
@@ -217,7 +217,7 @@ export const CONTRACT_ABI = [
         type: 'uint256',
       },
     ],
-    name: 'createProperty',
+    name: 'createenergy',
     outputs: [],
     stateMutability: 'nonpayable',
     type: 'function',
@@ -412,7 +412,7 @@ export const CONTRACT_ABI = [
     outputs: [
       {
         internalType: 'uint256',
-        name: 'propertyPrice',
+        name: 'energyPrice',
         type: 'uint256',
       },
       {

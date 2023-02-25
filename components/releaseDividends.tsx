@@ -50,7 +50,7 @@ export default function ReleaseDividends() {
   return (
     <Alert variant="secondary">
       <Alert.Heading>Release Dividends</Alert.Heading>
-      <p>Release dividends to existing property share holders.</p>
+      <p>Release dividends to existing energy share holders.</p>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Dividend amount:</Form.Label>

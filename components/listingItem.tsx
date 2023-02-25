@@ -21,7 +21,7 @@ export default function ListingItem({ listing }: Props) {
           </Card.Subtitle>
           <Card.Text className="text-truncate">{listing.description}</Card.Text>
           <div className="d-flex gap-2">
-            <Link href={Routes.PROPERTY_VIEW} passHref>
+            <Link href={Routes.energy_VIEW} passHref>
               <Button variant="primary">View Listing</Button>
             </Link>
           </div>

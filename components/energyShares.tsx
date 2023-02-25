@@ -4,7 +4,7 @@ import StoreContext from '../lib/context';
 import { getContract } from '../lib/eth';
 import { FetchState } from '../lib/types';
 
-export default function PropertyShares() {
+export default function energyShares() {
   const context = useContext(StoreContext);
   const [fetchState, setFetchState] = useState(FetchState.DEFAULT);
   const [balance, setBalance] = useState(0);
@@ -63,7 +63,7 @@ export default function PropertyShares() {
 
   return (
     <Alert variant="primary" className="sticky-top">
-      <Alert.Heading>Property Shares</Alert.Heading>
+      <Alert.Heading>energy Shares</Alert.Heading>
       <p className="text-break">
         Balance: <b>{hasBalance ? balance : '----'}</b>
       </p>

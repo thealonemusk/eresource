@@ -7,8 +7,8 @@ declare global {
 export enum Routes {
   HOME = '/',
   PROPERTIES = '/properties',
-  PROPERTY_CREATE = '/properties/create',
-  PROPERTY_VIEW = '/properties/view',
+  energy_CREATE = '/properties/create',
+  energy_VIEW = '/properties/view',
 }
 
 export enum ConnectState {

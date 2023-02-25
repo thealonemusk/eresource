@@ -5,12 +5,12 @@ import StoreContext from '../lib/context';
 import { getContract } from '../lib/eth';
 import { FetchState } from '../lib/types';
 
-export default function CreateProperty() {
+export default function Createenergy() {
   const context = useContext(StoreContext);
   const [fetchState, setFetchState] = useState(FetchState.DEFAULT);
   const [message, setMessage] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
-  const [propertyPrice, setPropertyPrice] = useState(1);
+  const [energyPrice, setenergyPrice] = useState(1);
   const [listingId, setListingId] = useState(1);
   const [pinCode, setPinCode] = useState('1');
   const [tokenSupply, setTokenSupply] = useState(0);
@@ -23,7 +23,7 @@ export default function CreateProperty() {
         gas: CONTRACT_CREATE_PROP_GAS,
       });
       const res = await contract.methods
-        .createProperty(propertyPrice, listingId, pinCode, tokenSupply)
+        .createenergy(energyPrice, listingId, pinCode, tokenSupply)
         .send();
 
       setMessage(JSON.stringify(res));
@@ -43,21 +43,21 @@ export default function CreateProperty() {
         return 'Try Again';
 
       default:
-        return 'Create Property';
+        return 'Create energy';
     }
   }, [fetchState]);
 
   return (
     <Alert variant="secondary">
-      <Alert.Heading>Create Property</Alert.Heading>
-      <p>Create a new property to be listed in the marketplace.</p>
+      <Alert.Heading>Create energy</Alert.Heading>
+      <p>Create a new energy to be listed in the marketplace.</p>
       <Form>
         <Form.Group className="mb-3" controlId="addressId">
-          <Form.Label>Property Price:</Form.Label>
+          <Form.Label>energy Price:</Form.Label>
           <Form.Control
             type="number"
-            value={propertyPrice}
-            onChange={(e) => setPropertyPrice(Number(e.target.value))}
+            value={energyPrice}
+            onChange={(e) => setenergyPrice(Number(e.target.value))}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="addressId">
@@ -77,7 +77,7 @@ export default function CreateProperty() {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Property Shares Supply:</Form.Label>
+          <Form.Label>energy Shares Supply:</Form.Label>
           <Form.Control
             type="number"
             value={tokenSupply}

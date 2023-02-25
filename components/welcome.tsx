@@ -17,7 +17,7 @@ export default function Welcome() {
           Your wallet address is: <b>{account?.addressId}</b>
         </p>
         <p>
-          Property token smart contract address: <b>{CONTRACT_ADDRESS}</b>
+          energy token smart contract address: <b>{CONTRACT_ADDRESS}</b>
         </p>
         <hr />
         <div className="d-flex justify-content-end">

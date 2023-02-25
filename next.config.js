@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   pageExtensions: ['page.tsx'],
-  basePath: isProd ? '/decentralized-property-trading-app' : '',
+  basePath: isProd ? '/decentralized-energy-trading-app' : '',
 };
 
 module.exports = nextConfig;

@@ -8,7 +8,7 @@ export default function Header() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Link href={Routes.HOME} passHref>
-          <Navbar.Brand>Decentralized Property Trading App</Navbar.Brand>
+          <Navbar.Brand>Decentralized energy Trading App</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -19,8 +19,8 @@ export default function Header() {
             <Link href={Routes.PROPERTIES} passHref>
               <Nav.Link>Properties</Nav.Link>
             </Link>
-            <Link href={Routes.PROPERTY_CREATE} passHref>
-              <Nav.Link>Create Property</Nav.Link>
+            <Link href={Routes.energy_CREATE} passHref>
+              <Nav.Link>Create energy</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
