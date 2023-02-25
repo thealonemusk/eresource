@@ -37,4 +37,5 @@ export type Listing = {
   description: string;
   listedBy: string;
   imageUrl: string;
+  energyPrice: number;
 };
