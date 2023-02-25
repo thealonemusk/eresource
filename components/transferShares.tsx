@@ -61,11 +61,11 @@ export default function TransferShares() {
         <ul>
           <li>
             Ashutosh's wallet address -{' '}
-            <b>0x6F529b138Eb5d99ff8b2691BCBF0129a5dAe7679</b>
+            <b>0x2212E8aad0b67460D140821ad0c55D81eAB16777</b>
           </li>
           <li>
             Nishchay's wallet address -{' '}
-            <b>0xe31058855f1b75f52498d4004C6fb3d3D4F06C5A</b>
+            <b>0x0d7D7b815Eb2fD1E770813ec951F80b03E265800</b>
           </li>
           {/* <li>
             Sud's wallet address -{' '}
