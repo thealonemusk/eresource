@@ -11,7 +11,6 @@ export default function Home() {
     <MetaMaskConnected>
       <Welcome />
       <EnergyShares />
-     
       <Createenergy />
       <TransferShares />
       <ReleaseDividends />

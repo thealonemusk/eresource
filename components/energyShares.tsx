@@ -63,7 +63,7 @@ export default function energyShares() {
 
   return (
     <Alert variant="primary" className="">
-      <Alert.Heading>Energy Shares</Alert.Heading>
+      <Alert.Heading>Energy in MegaWatts</Alert.Heading>
       <p className="text-break">
         Balance: <b>{hasBalance ? balance : '----'}</b>
       </p>
