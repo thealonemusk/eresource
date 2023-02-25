@@ -43,7 +43,7 @@ export default function ReleaseDividends() {
         return 'Try Again';
 
       default:
-        return 'Release Dividends';
+        return 'Release Credits';
     }
   }, [fetchState]);
 

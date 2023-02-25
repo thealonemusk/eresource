@@ -43,7 +43,7 @@ export default function Createenergy() {
         return 'Try Again';
 
       default:
-        return 'Create energy';
+        return 'Create Source';
     }
   }, [fetchState]);
 

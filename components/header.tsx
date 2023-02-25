@@ -5,7 +5,7 @@ import { Routes } from '../lib/types';
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="lg" className='sticky-top'>
+    <Navbar bg="light" expand="lg" className="sticky-top">
       <Container>
         <Link href={Routes.HOME} passHref>
           <Navbar.Brand>Decentralized Energy Trading App</Navbar.Brand>
@@ -17,7 +17,7 @@ export default function Header() {
               <Nav.Link>Dashboard</Nav.Link>
             </Link>
             <Link href={Routes.PROPERTIES} passHref>
-              <Nav.Link>Properties</Nav.Link>
+              <Nav.Link>Current Sorces</Nav.Link>
             </Link>
             <Link href={Routes.energy_CREATE} passHref>
               <Nav.Link>Create Energy Source</Nav.Link>
