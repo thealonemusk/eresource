@@ -17,7 +17,7 @@ export default function Header() {
               <Nav.Link>Dashboard</Nav.Link>
             </Link>
             <Link href={Routes.PROPERTIES} passHref>
-              <Nav.Link>Current Sorces</Nav.Link>
+              <Nav.Link>Current Sources</Nav.Link>
             </Link>
             <Link href={Routes.energy_CREATE} passHref>
               <Nav.Link>Create Energy Source</Nav.Link>
