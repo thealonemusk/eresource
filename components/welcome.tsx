@@ -12,17 +12,17 @@ export default function Welcome() {
     <div>
       <Alert variant="success">
         <Alert.Heading>Welcome!</Alert.Heading>
-        <p>Please can now browse and buy properties in our marketplace.</p>
+        <p>Please can now browse and buy Energy in our Marketplace.</p>
         <p>
           Your wallet address is: <b>{account?.addressId}</b>
         </p>
         <p>
-          energy token smart contract address: <b>{CONTRACT_ADDRESS}</b>
+          Energy token smart contract address: <b>{CONTRACT_ADDRESS}</b>
         </p>
         <hr />
         <div className="d-flex justify-content-end">
           <Link href={Routes.PROPERTIES} passHref>
-            <Button variant="outline-success">Browse Properties</Button>
+            <Button variant="outline-success">Browse Energy Sources</Button>
           </Link>
         </div>
       </Alert>
