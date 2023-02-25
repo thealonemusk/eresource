@@ -1,6 +1,6 @@
 import Createenergy from '../components/createenergy';
 import MetaMaskConnected from '../components/metaMaskConnected';
-import energyShares from '../components/energyShares';
+// import energyShares from '../components/energyShares';
 import ReleaseDividends from '../components/releaseDividends';
 import TransferShares from '../components/transferShares';
 import Welcome from '../components/welcome';
