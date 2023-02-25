@@ -8,7 +8,7 @@ export default function Header() {
     <Navbar bg="light" expand="lg" className='sticky-top'>
       <Container>
         <Link href={Routes.HOME} passHref>
-          <Navbar.Brand>Decentralized energy Trading App</Navbar.Brand>
+          <Navbar.Brand>Decentralized Energy Trading App</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
