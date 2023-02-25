@@ -60,17 +60,17 @@ export default function TransferShares() {
       <p>
         <ul>
           <li>
-            Arijit's wallet address -{' '}
+            Ashutosh's wallet address -{' '}
             <b>0x6F529b138Eb5d99ff8b2691BCBF0129a5dAe7679</b>
           </li>
           <li>
-            Ketan's wallet address -{' '}
+            Nishchay's wallet address -{' '}
             <b>0xe31058855f1b75f52498d4004C6fb3d3D4F06C5A</b>
           </li>
-          <li>
+          {/* <li>
             Sud's wallet address -{' '}
             <b>0xe20517bdef7b9dE86225dA8ACd981fa992974729</b>
-          </li>
+          </li> */}
         </ul>
       </p>
       <Form>
