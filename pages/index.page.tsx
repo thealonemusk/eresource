@@ -27,15 +27,15 @@ thus praviding the users a second stream of income</p>
         </div>
       </section>
 
-      <div className="album py-5 bg-light mt-5 mb-5">
-      <h1 className="jumbotron-heading text-center">Our solution</h1>
+      <div className="album py-5 mt-5 mb-5">
+      <h1 className="jumbotron-heading text-center text-light">Our solution</h1>
         <div className="container">
 
           <div className="row">
             <div className="col-md-4 sol-col">
-              <div className="card mb-4 shadow-sm">
+              <div className="card mb-4 shadow-lg rounded border border-dark">
                 <img className="card-img-top p-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqSu4VyuOPNG-7527sDTrNGqqslepjvdWKWg&usqp=CAU" alt="Card image cap" />
-                <div className="card-body">
+                <div className="card-body bg-primary text-light border-top border-dark">
                   <h5 className="card-text text-center">Reduced Demand</h5>
                   <div className="flex justify-content-center align-items-center">
                    
@@ -49,9 +49,9 @@ thus praviding the users a second stream of income</p>
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card mb-4 shadow-sm">
+              <div className="card mb-4 shadow-lg rounded border border-dark">
                 <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYaux0PyfOS3LySeuainEG9v0DPlvPT8wYNnHK7Rrm9dIsGjuBZGSdVCjk0zN87NWR4us&usqp=CAU" alt="Card image cap"/>
-                <div className="card-body">
+                <div className="card-body bg-primary text-light border-top border-dark">
                   <h5 className="card-text text-center">Incentive</h5>
                   <div className="flex justify-content-center align-items-center">
                    
@@ -65,10 +65,10 @@ thus praviding the users a second stream of income</p>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card mb-4 shadow-sm">
+              <div className="card mb-4 shadow-lg rounded border border-dark">
                 <img className="card-img-top" src="https://i.redd.it/vovtk5f5xin61.jpg" alt="Card image cap"/>
-                <div className="card-body">
-                  <h5 className="card-text text-center">Renewable</h5>
+                <div className="card-body bg-primary text-light border-top border-dark">
+                  <h5 className="card-text text-center ">Renewable</h5>
                   <div className="flex justify-content-center align-items-center">
                    
                       {/* <button type="button" className="btn btn-sm btn-outline-secondary">View</button>

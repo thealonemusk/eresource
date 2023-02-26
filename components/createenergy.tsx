@@ -48,7 +48,7 @@ export default function Createenergy() {
   }, [fetchState]);
 
   return (
-    <Alert variant="secondary">
+    <Alert variant="secondary" className='create'>
       <Alert.Heading>Create Energy Source</Alert.Heading>
       <p>Create a new energy to be listed in the marketplace.</p>
       <Form>
