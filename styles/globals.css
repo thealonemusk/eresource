@@ -1,5 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Roboto:wght@500&family=Space+Grotesk:wght@600;700&display=swap');
+
+html{
+  font-family: 'Baloo Paaji 2', cursive;
+}
 body {
   overflow-y: scroll;
-  background-color: #EAEBEC;
+  /* background-image: linear-gradient(to right, #c33764 , #1d2671); */
+  font-family: 'Baloo Paaji 2', cursive;
+  /* background: radial-gradient(circle at top left,transparent 9%, #6BFB16 10% ,#6BFB16 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #6BFB16 10% ,#6BFB16 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #6BFB16 10% ,#6BFB16 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #6BFB16 10% ,#6BFB16 15% , transparent 16%),radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #6BFB16 47%, #6BFB16 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #6BFB16 47%, #6BFB16 52%, transparent 53%);
+  background-size: 4em 4em;
+  background-color: #ffffff; */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1252%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1253)'%3e%3c/rect%3e%3ccircle r='93.335' cx='65.86' cy='44.01' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='378.69' cy='455.4' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='715.75' cy='671.32' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='49.925' cx='681.97' cy='180.8' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='102.48' cx='393.28' cy='462.86' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='99.445' cx='1097.99' cy='201.51' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='128.255' cx='320.45' cy='231.13' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='75.315' cx='854.58' cy='174.07' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='167.28' cx='682.55' cy='330.61' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='164.285' cx='1253.98' cy='207.97' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='150.905' cx='68.11' cy='338.79' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='161.745' cx='1098.49' cy='163.28' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='175.75' cx='249.58' cy='298' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='101.925' cx='793.42' cy='124.07' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='89.03' cx='534.27' cy='157.78' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='53.85' cx='499.76' cy='433.88' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='53.505' cx='68.54' cy='309.77' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='72.53' cx='1177.8' cy='40.58' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='82.875' cx='636.61' cy='542.13' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='97.015' cx='850.96' cy='140.46' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='177.42' cx='56.73' cy='163.5' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='70.595' cx='1194.27' cy='150.03' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='178.08' cx='1300.46' cy='479.23' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.065' cx='248.12' cy='31.05' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='96.95' cx='862.7' cy='476.71' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='83.35' cx='172.91' cy='544.88' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='95.83' cx='897.93' cy='310.8' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='159.01' cx='835.87' cy='271.43' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='90.41' cx='1213.95' cy='176.51' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='55.525' cx='1166.33' cy='552.15' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='124.935' cx='1197.22' cy='132.83' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='64.59' cx='288.42' cy='88.62' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='121.295' cx='621.91' cy='402.07' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='87.495' cx='634.02' cy='401.59' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='123.5' cx='84.45' cy='451.33' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='159.38' cx='1073.96' cy='546.55' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='78.425' cx='328.81' cy='338.31' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='184.64' cx='1118.63' cy='430.47' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='182.125' cx='138.18' cy='29.53' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='168.64' cx='1366.49' cy='337.46' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1252'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1253'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  opacity:1;
+
   /* background: url('https://images.all-free-download.com/images/graphiclarge/starry_night_192398.jpg') repeat center center/cover; */
+}
+.navbar{
+  background-color: black;
+  color: white;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.graph{
+  /* border: 2px solid red; */
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #F5F5F5;
+  /* text-align: center; */
+}
+.stats{
+  width: 100%;
+  height: auto !important;
+  max-width:1000px;
+  -ms-interpolation-mode: bicubic;
+  display: flex;
+  justify-content: center;
 }

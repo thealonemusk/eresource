@@ -5,22 +5,22 @@ import { Routes } from '../lib/types';
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="lg" className="sticky-top">
+    <Navbar expand="lg" className="sticky-top navbar">
       <Container>
         <Link href={Routes.HOME} passHref>
-          <Navbar.Brand>Decentralized Energy Trading App</Navbar.Brand>
+          <Navbar.Brand className='text-light'>Decentralized Energy Trading App</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto txt-light">
             <Link href={Routes.HOME} passHref>
-              <Nav.Link>Dashboard</Nav.Link>
+              <Nav.Link className='text-light'>Dashboard</Nav.Link>
             </Link>
             <Link href={Routes.PROPERTIES} passHref>
-              <Nav.Link>Current Sources</Nav.Link>
+              <Nav.Link className='text-light'>Current Sources</Nav.Link>
             </Link>
             <Link href={Routes.energy_CREATE} passHref>
-              <Nav.Link>Create Energy Source</Nav.Link>
+              <Nav.Link className='text-light'>Create Energy Sources</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

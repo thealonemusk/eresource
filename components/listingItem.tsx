@@ -6,7 +6,6 @@ import { Listing, Routes } from '../lib/types';
 type Props = {
   listing: Listing;
 };
-
 export default function ListingItem({ listing }: Props) {
   return (
     <div className="p-2" style={{ width: '25%' }}>
@@ -20,7 +19,7 @@ export default function ListingItem({ listing }: Props) {
             {listing.country}
           </Card.Subtitle>
           <Card.Text className="">Owner's address : {listing.listedBy}</Card.Text>
-          <Card.Text className="text-truncate">${listing.energyPrice}</Card.Text>
+          <Card.Text className="text-truncate">Price : ${listing.energyPrice}</Card.Text>
           <div className="d-flex gap-2">
             <Link href={Routes.energy_VIEW} passHref>
               <Button variant="primary">View Listing</Button>
