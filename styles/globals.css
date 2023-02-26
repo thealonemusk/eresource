@@ -37,3 +37,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.create{
+  background-color: #D1E7DD;
+}
+.transfer{
+  background-color: #D1E7DD;
+}
+.release{
+  background-color: #D1E7DD;
+}

@@ -54,7 +54,7 @@ export default function TransferShares() {
   return (
     <Alert
       variant="secondary"
-      className="shadow-lg rounded bg-secondary text-dark"
+      className="shadow-lg rounded text-dark transfer"
     >
       <Alert.Heading>Transfer Energy in MegaWatts</Alert.Heading>
 
