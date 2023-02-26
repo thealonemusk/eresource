@@ -39,6 +39,7 @@ export function useGetListings() {
           description: faker.lorem.sentences(),
           listedBy: faker.finance.ethereumAddress(),
           imageUrl: faker.image.city(0, 0, true),
+          energyPrice: faker.finance.amount(),
         });
       }
 

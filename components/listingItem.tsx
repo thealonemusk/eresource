@@ -19,7 +19,8 @@ export default function ListingItem({ listing }: Props) {
           <Card.Subtitle className="mb-2 text-muted">
             {listing.country}
           </Card.Subtitle>
-          <Card.Text className="text-truncate">{listing.description}</Card.Text>
+          <Card.Text className="">Owner's address : {listing.listedBy}</Card.Text>
+          <Card.Text className="text-truncate">${listing.energyPrice}</Card.Text>
           <div className="d-flex gap-2">
             <Link href={Routes.energy_VIEW} passHref>
               <Button variant="primary">View Listing</Button>
